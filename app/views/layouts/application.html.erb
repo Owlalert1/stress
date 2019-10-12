@@ -18,17 +18,30 @@
          </div>
         </div>
         <div class="row justify-content-center links">
-        <%= link_to 'Click for Calming Images' '#' %>
+          <%= link_to "Images", images_path %>
         </div>
       </div>
 
     </header>
 
     <br>
+    <br class="clear">
 
-    <br class="clear"
+    <div class="container">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
-    <p>This is some test text</p>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 footer-home">
+            <a href="[https://stress-joe-holley.herokuapp.com]">[Back]</a><br />
+          </div>
+          <div class="col-6 footer-blurb">
+            Created by <a href="[https://joeholley.netlify.com]">[Joe Holley]</a><br />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

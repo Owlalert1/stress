@@ -18,34 +18,26 @@ h1 {
 }
 
 .links a {
- font-family: 'aller_rg-webfont.woff', sans-serif;
- font-style: italic;
- font-size: 20px;
- color:#070707;
- border-bottom: 3px solid #dfdfdf; 
+  font-family: 'aller_rg-webfont.woff', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color:#070707;
+  border-bottom: 3px solid #dfdfdf; 
 }
 
 .footer-blurb {
- font-family: 'aller_rg-webfont.woff', sans-serif;
- font-style: italic;
- text-align: right;
- font-size: 20px;
- color:#070707;
-}
-
-.footer-home {
- font-family: 'aller_rg-webfont.woff', sans-serif;
- font-style: italic;
- text-align: left;
- font-size: 20px;
- color:#070707;
-}
+  font-family: 'aller_rg-webfont.woff', sans-serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 20px;
+  color:#070707;
+ }
 
 h2 {
-   font-family: 'aller_rg-webfont.woff', sans-serif;
-   font-style: italic;
-   text-align: center;
-   color:#16F9EA;
+  font-family: 'aller_rg-webfont.woff', sans-serif;
+  font-style: italic;
+  text-align: center;
+  color:#16F9EA;
   }
 
 .center {
@@ -55,3 +47,14 @@ h2 {
   width: 25%;
 }
 
+img {
+  padding-top:30px;
+  width: 100%;
+}
+
+p {
+ font-family: 'aller_rg-webfont.woff', sans-serif;
+ font-style: italic;
+ font-size: 20px;
+ color:#070707; 
+}

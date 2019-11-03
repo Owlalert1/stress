@@ -1,6 +1,6 @@
 class ThoughtsController < ApplicationController
   def index  
-    @thought = Thought.order.first
+    @thoughts = Thought.all
   end
 
   def new
@@ -9,6 +9,7 @@ class ThoughtsController < ApplicationController
 
   def create
     Thought.create(thought_params)
+    redirect_to thoughts_path
   end
 
   private

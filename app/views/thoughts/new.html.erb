@@ -1,7 +1,9 @@
-<h1>What works for you in dealing with stress?</h1>
-<%= simple_form_for @thought do |f| %>
-  <%= f.input :thoughts %>
-  <%= f.input :name %>
-  <br />
-  <%= f.submit 'Create' %>
-<% end %>
+<div class="booyah-box col-10 offset-1">
+  <h1>What works for you in dealing with stress?</h1>
+  <%= simple_form_for @thought do |f| %>
+    <%= f.input :thoughts %>
+    <%= f.input :name %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>

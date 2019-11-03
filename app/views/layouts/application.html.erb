@@ -14,13 +14,21 @@
     <header>
       <div class="container">
         <div class="row justify-content-center">
-         <div class="col-5">
+           <div class="row links">
+          <div class="col col-sm-3">
+          <%= link_to "Image", images_path %>
+          </div>
+        </div> 
+         <div class="col col-sm-6 offset-1">
           <h1>Dealing with Stress</h1>
          </div>
+        <div class="row links">
+          <div class="col col-sm=3">
+          <%= link_to "Thoughts", thoughts_path %>
         </div>
-        <div class="row justify-content-center links">
-          <%= link_to "Image", images_path %>
-        </div>
+      </div>
+
+
       </div>
 
     </header>
@@ -38,7 +46,7 @@
           <div class="col-12 col-sm-4 footer">
           <%= link_to "Home", root_path %>
         </div>
-          <div class="col-12 col-sm-4 footer-blurb">
+          <div class="col-12 col-sm-8 footer-blurb">
             Created by <a href="https://joeholley.netlify.com">[Joe Holley]</a><br />
           </div>
         </div>
